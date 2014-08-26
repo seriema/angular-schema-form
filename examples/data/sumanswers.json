@@ -1,0 +1,23 @@
+{
+	"schema": {
+		"type": "object",
+		"title": "Sum the fields",
+		"properties": {
+			"Sum": {
+				"title": "Get the total to 100",
+				"type": "number"
+			}
+		},
+		"required": ["Sum"]
+	},
+
+	"form": [
+		{
+			"key": "Sum",
+			"type": "sum",
+			"items": [
+				"One", "Two", "Three"
+			]
+		}
+	]
+}
